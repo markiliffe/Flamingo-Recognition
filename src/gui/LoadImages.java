@@ -22,14 +22,14 @@ public class LoadImages extends Component {
 
 	public LoadImages() {
 		try {
-			img = ImageIO.read(new File("DSC_5995.jpg"));
-			scaled_image = img;
-			graphics2D = img.createGraphics();
-			AffineTransform xform = AffineTransform.getScaleInstance(0.75, 0.75);
-			graphics2D.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BICUBIC);
-			graphics2D.drawImage(scaled_image, xform, null);
-			graphics2D.dispose();
-		} catch (IOException e) {
+//			img = ImageIO.read(new File("/Users/mark/Desktop/12mpix Panoramas/06-05 - 12mpix panorama/34_06-05_12mpix.jpg"));
+//			scaled_image = img;
+//			graphics2D = img.createGraphics();
+//			AffineTransform xform = AffineTransform.getScaleInstance(0.75, 0.75);
+//			graphics2D.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BICUBIC);
+//			graphics2D.drawImage(scaled_image, xform, null);
+//			graphics2D.dispose();
+		} catch (Exception e/*IOException e*/) {
 		}
 
 	}
