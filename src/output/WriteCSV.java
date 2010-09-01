@@ -5,7 +5,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Vector;
 
-import core.*;
+import core.Main;
+import core.ReportInstance;
 public class WriteCSV{
 
 	private Vector<ReportInstance> reports = new Vector<ReportInstance>();
